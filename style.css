@@ -47,7 +47,9 @@ header .icones li{
 }
 
 header{
-    height: 200px;
+    margin: 0 auto;
+    width: 1270px;
+    height: 180px;
 }
 
 div.menu{
@@ -86,13 +88,15 @@ h3.subTitulo{
     color: black;
 }
 
-/* Carrosel de imagens */
+/* Fim cabeçalho */
+
+/* Inicio Carrosel de imagens */
 
 #bloco1{
     height: 400px;
     width: 800px;
     overflow: hidden;
-    margin: 15px auto;
+    margin: 15px auto 50px auto;
 }
 
 .slides{
@@ -113,7 +117,7 @@ h3.subTitulo{
 
 .navigation{
     position: absolute;
-    bottom: 65px;
+    bottom: 50px;
     left: 50%;
     transform: translatex(-50%);
     display: flex;
@@ -153,42 +157,106 @@ h3.subTitulo{
     margin-left: -75%;
 }
 
-/* Bloco 2 */
+/* Fim Carrosel de imagens */
+
+/* Inicio Bloco 2 */
 
 #bloco2{
-    border: 1px solid red;
-    margin: 20px auto;
-    width: 1100px;
+    margin: 50px auto 0px auto;
+    background-color: #0d1e4be0;
+    width: 1270px;
     height: 550px;
 }
 
 #bloco2 h1{
-    color: #0d1e4bf6;
     text-align: center;
-    font-size: 1.8em;
+    padding: 15px;
+    margin-bottom: 10px;
 }
 
-#bloco2 .conteudo{
-    height: 85%;
-    border: 1px solid black;
+.conteudoB2{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
-#bloco2 .imagem{
+.conteudoB2 .paragrafoB2{
     width: 40%;
-    height: 70%;
-    border: 1px solid red;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 1.2em;
 }
 
-#bloco2 .imagem img{
+.conteudoB2 .imagensB2{
+    width: 50%;
+    height: 475px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+.conteudoB2 .imagensB2 .img1B2{
+    width: 83%;
+    height: 220px;
+    margin: 0 auto;
+    box-shadow: 3px 3px 6px black;
+}
+
+.conteudoB2 .imagensB2 .img2B2{
+    width: 50%;
+    height: 215px;
+    box-shadow: 3px 3px 6px black;
+}
+
+.conteudoB2 .imagensB2 .img3B2{
+    width: 30%;
+    height: 215px;
+    box-shadow: 3px 3px 6px black;
+}
+
+.imagensB2 div img{
     width: 100%;
     height: 100%;
 }
 
-#bloco2 .texto{
-    color: black;
-    width: 55%;
-    font-size: 20px;
+/* Fim Bloco 2 */
 
+/* Inicio Bloco 3 */
+
+#bloco3{
+    height: 600px;
+    padding-top: 10px;
+    width: 1270px;
+    margin: 0 auto;
+}
+
+#bloco3 h1{
+    color: #0d1e4be0;
+    text-align: center;
+    font-size: 1.7em;
+}
+
+#bloco3 .informacoes{
+    color: #0d1e4be0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 3%;
+    row-gap: 30px;
+    font-size: 1.0em;
+}
+
+.informacoes div{
+    width: 30%;
+    height: 250px;
+}
+
+.informacoes div ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.informacoes div ul li{
+    text-align: center;
+    padding: 8px;
 }
