@@ -44,6 +44,7 @@ header .menu .home{
 header .icones{
     list-style: none;
     margin-left: 5px;
+    color: white;
 }
 
 header .icones li{
@@ -58,17 +59,24 @@ header{
 }
 
 div.menu{
-    background-color: #0d1e4be0;
+    background-color: #0d1e4bf6;
     display: flex;
-    justify-content: space-between;
-    padding: 12px;
+    justify-content: center;
+    padding: 10px;
+}
+
+div.logoTitulo{
+    display: flex;
+    border: 0px solid black;
+    height: 140px;
+    background-color: #0d1e4be6;
 }
 
 div.titulo{
-    background-color: #0d1e4bf6;
-    border: 1px solid #0d1e4bf6;
-    padding: 10px;
-    height: 52%;
+    border: 0px solid #0d1e4bf7;
+    padding: 15px;
+    border: 0px solid red;
+    width: 61%;
 }
 
 h1.titulo1{
@@ -76,8 +84,9 @@ h1.titulo1{
     margin-bottom: 10px;
     color: white;
     text-align: center;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     font-family: 'Source Code Pro', monospace;
+    font-size: 1.9em;
 }
 
 h3.subTitulo{
@@ -86,6 +95,15 @@ h3.subTitulo{
     text-align: center;
     font-weight: 500;
     font-size: 17px;
+}
+
+.logoTitulo .logo{
+    width: 18%;
+}
+
+.logoTitulo .logo img{
+    width: 100%;
+    height: 100%;
 }
 
 .scaled:hover{
@@ -100,8 +118,9 @@ h3.subTitulo{
 #bloco1{
     height: 400px;
     width: 800px;
+    padding: 0px;
     overflow: hidden;
-    margin: 15px auto 50px auto;
+    margin: 35px auto 50px auto;
 }
 
 .slides{
@@ -171,6 +190,7 @@ h3.subTitulo{
     background-color: #0d1e4be0;
     width: 1270px;
     height: 550px;
+    color: white;
 }
 
 #bloco2 h1{
@@ -295,20 +315,58 @@ h3.subTitulo{
 /* Inicio bloco5 */
 
 #bloco5{
-
+    box-shadow: 3px 3px 6px black;
+    background-color: #0d1e4bf6;
+    padding: 10px;
 }
 
 #bloco5 h1{
+    color: white;
+    text-align: center;
+    font-size: 1.7em;
+}
+
+#bloco5 details{
+    color: white;
+    margin-bottom: 16px;
+    padding: 0px;
+}
+
+details:hover{
+    cursor: pointer;
+}
+
+#bloco5 details summary{
+    font-size: 1.3em;
+} 
+
+#bloco5 details p{
+    background-color: #0d1e4b;
+    border: 1px solid white;
+    font-size: 1em;
+    padding: 10px;
+    margin: 2px;
+} 
+
+/* Fim bloco5 */
+
+/* Inicio bloco6 */
+
+#bloco6{
+
+}
+
+#bloco6 h1{
     margin-top: 50px;
     color: #0d1e4be0;
     text-align: center;
     font-size: 2.3em;
 }
 
-#bloco5 div{
+#bloco6 div{
     margin: 0px auto;
     width: 800px;
 }
 
-/* Fim bloco 5 */
+/* Fim bloco 6 */
 
