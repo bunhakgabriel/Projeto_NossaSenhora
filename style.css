@@ -3,7 +3,7 @@ body{
 }
 
 #container{
-    height: 4000px;
+
 }
 
 /* Cabeçalho */
@@ -27,7 +27,8 @@ header .menu{
     list-style: none;
     font-family: 'Montserrat', sans-serif;
     height: 25%;
-
+    display: flex;
+    justify-content: space-around;
 }
 
 header .menu li{
@@ -54,14 +55,14 @@ header .icones li{
 
 header{
     margin: 0 auto;
-    width: 1270px;
+    width: 1300px;
     height: 180px;
 }
 
 div.menu{
     background-color: #0d1e4bf6;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     padding: 10px;
 }
 
@@ -291,6 +292,8 @@ h3.subTitulo{
 /* Inicio bloco 4 (video) */
 
 #bloco4{
+        width: 1270px;
+    margin: 0 auto;
     height: 550px;
     display: flex;
     justify-content: space-around;
@@ -315,6 +318,8 @@ h3.subTitulo{
 /* Inicio bloco5 */
 
 #bloco5{
+    width: 1270px;
+    margin: 0 auto;
     box-shadow: 3px 3px 6px black;
     background-color: #0d1e4bf6;
     padding: 10px;
@@ -353,7 +358,8 @@ details:hover{
 /* Inicio bloco6 */
 
 #bloco6{
-
+    width: 1270px;
+    margin: 0 auto;
 }
 
 #bloco6 h1{
@@ -370,3 +376,97 @@ details:hover{
 
 /* Fim bloco 6 */
 
+/* Rodape */
+
+footer{
+    width: 1270px;
+    margin: 20px auto 0px auto;
+    background-color: #0d1e4be6;
+    padding-top: 30px;
+    box-shadow: 3px 3px 6px black;
+}
+
+footer div.flex{
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+}
+
+footer div.flex div{
+    border: 0px solid black;
+    color: white;
+}
+
+footer .flex .imgRodape{
+    width: 17%;
+    height: 170px;
+}
+
+footer .imgRodape img{
+    width: 100%;
+    height: 100%;
+}
+
+footer div ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer .navRodape{
+    width: 17%;
+}
+
+footer .navRodape ul{
+    text-align: center
+}
+
+footer .navRodape ul li{
+    margin-top: 10px;
+    letter-spacing: 5px;
+    font-size: 1em;
+}
+
+footer .horarios{
+    width: 27%;
+}
+
+footer .horarios ul{
+    margin-left: 10%;
+}
+
+footer .horarios ul li{
+    margin-top: 5px;
+    letter-spacing: 5px;
+    font-size: 1em;
+}
+
+footer .contatos{
+    width: 27%;
+    padding-top: 40px;
+    height: 200px;
+}
+
+footer .contatos .icones{
+    margin-bottom: 30px;
+    list-style: none;
+    text-align: center;
+    color: white;
+}
+
+footer .contatos .icones li{
+    display: inline;
+    margin-right: 25px;
+}
+
+footer .contatos h3{
+    margin-bottom: 5px;
+}
+
+footer .copyright{
+    background-color: #0d1e4bf6;
+    margin-top: 10px;
+    padding: 15px;
+    text-align: center;
+    color: white;
+}
