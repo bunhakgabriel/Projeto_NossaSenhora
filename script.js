@@ -21,3 +21,17 @@ document.addEventListener("click", e => {
 })
 
 //Fim função carrossel de imagens
+
+//Função para menu responsivo
+function menuShow() {
+    let menuMobile = document.querySelector('.mobile-menu');
+    let bloco1 = document.getElementById('bloco1')
+
+    if (menuMobile.classList.contains('open')) {
+        menuMobile.classList.remove('open');
+        //bloco1.style.marginTop = '35px'
+    } else {
+        menuMobile.classList.add('open');
+        //bloco1.style.marginTop = '270px'
+    }
+}

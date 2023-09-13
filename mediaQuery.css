@@ -1,0 +1,96 @@
+
+.mobile-menu{
+    display: none;
+}
+
+.mobile-menu-icon{
+    display: none;
+}
+
+/* Media para menu responsivo */
+
+@media screen and (max-width: 840px) {
+    .nav-bar {
+        padding: 1.5rem 4rem;
+    }
+    .navegacao .nav-item {
+        display: none;
+    }
+    .mobile-menu{
+        background-color: #0d1e4bf6;
+        height: 270px;
+    }
+    .mobile-menu-icon {
+        display: block;
+    }
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        color: white;
+        padding: 15px;
+        font-size: 1em;
+    }
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+    }
+    .open {
+        display: block;
+    }
+    div.logoTitulo{
+        height: 110px;
+    }
+    div.logoTitulo .titulo{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .logoTitulo h1{
+        font-size: 1.6em;
+    }
+    .logoTitulo h3{
+        font-size: 1em;
+    }
+    .logoTitulo .logo{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 770px){
+    .logoTitulo h1{
+        font-size: 1.3em;
+        letter-spacing: 1.6px;
+    }
+    .logoTitulo h3{
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width: 660px){
+    .logoTitulo h1{
+        font-size: 1.2em;
+        letter-spacing: 1.4px;
+    }
+    .logoTitulo h3{
+        font-size: 0.7em;
+    }
+}
+
+@media screen and (max-width: 560px){
+    .logoTitulo h1{
+        font-size: 1.2em;
+        letter-spacing: 0px;
+    }
+    .logoTitulo h3{
+        font-size: 0.7em;
+    }
+}
+
+
+/* Fim menu responsivo */
