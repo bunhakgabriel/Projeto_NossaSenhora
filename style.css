@@ -109,6 +109,7 @@ div.titulo{
 /* Inicio Carrosel de imagens */
 
 #bloco1{
+    position: relative;
     height: 400px;
     width: 800px;
     padding: 0px;
@@ -241,7 +242,6 @@ div.titulo{
 /* Inicio Bloco 3 */
 
 #bloco3{
-    height: 600px;
     padding-top: 10px;
     width: 1270px;
     margin: 0 auto;
@@ -251,20 +251,21 @@ div.titulo{
     color: #0d1e4be0;
     text-align: center;
     font-size: 1.7em;
+    padding: 15px;
 }
 
 #bloco3 .informacoes{
     color: #0d1e4be0;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    column-gap: 3%;
+    justify-content: space-around;
+    column-gap: 1%;
     row-gap: 30px;
     font-size: 1.0em;
 }
 
 .informacoes div{
-    width: 30%;
+    width: 32%;
     height: 250px;
 }
 
