@@ -19,7 +19,6 @@ document.addEventListener("click", e => {
         contador = num
     }
 })
-
 //Fim função carrossel de imagens
 
 //Função para menu responsivo
@@ -29,9 +28,35 @@ function menuShow() {
 
     if (menuMobile.classList.contains('open')) {
         menuMobile.classList.remove('open');
-        //bloco1.style.marginTop = '35px'
     } else {
         menuMobile.classList.add('open');
-        //bloco1.style.marginTop = '270px'
     }
 }
+//Fim função para menu responsivo
+
+//Função faq
+const mostrarResposta = () => {
+    const identElementClick = el.dataset.ident
+
+    const identElementResp = 
+        document.querySelector(`[data-paragraph="${identElementClick}"]`)
+
+    const arrayIdentElementResp = 
+        Array.from(document.querySelectorAll('.selectJs'))
+
+    identElementResp.classList.toggle('action')
+
+}
+
+document.addEventListener('click', e => {
+    el = e.target
+
+    if(el.classList.contains('btn') || 
+       el.classList.contains('span') || 
+       el.classList.contains('fas')){
+        mostrarResposta()
+       }
+
+})
+
+//Fim função faq

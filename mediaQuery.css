@@ -1,3 +1,8 @@
+@media screen and (max-width: 1250px){
+    header, div.logoTitulo, #bloco1, #bloco2, #bloco3, #bloco4, #bloco5, #bloco6, footer{
+        width: 100%;
+    }
+}
 
 .mobile-menu{
     display: none;
@@ -135,9 +140,9 @@
 
 @media screen and (max-width: 1250px){
     #bloco2{
-        width: 97vw;
-        height: 550px;
+        height: 570px;
         color: white;
+        font-family: Arial, Helvetica, sans-serif;
     }
     .conteudoB2 .paragrafoB2{
         font-size: 1.1em;
@@ -146,8 +151,7 @@
 
 @media screen and (max-width: 1006px){
     #bloco2{
-        width: 97vw;
-        height: 800px;
+        height: auto;
     }
     .conteudoB2 .paragrafoB2{
         font-size: 1.2em;
@@ -166,7 +170,9 @@
 
 @media screen and (max-width: 660px){
     #bloco2{
-        height: 1250px;
+        height: auto;
+        background-color: white;
+        color: #0d1e4be0;
     }
     .conteudoB2{
         flex-wrap: wrap;
@@ -193,7 +199,7 @@
 
 @media screen and (max-width: 507px){
     #bloco2{
-        height: 1300px;
+        height: auto;
     }
     .conteudoB2 .paragrafoB2{
         font-size: 1.1em;
@@ -208,7 +214,7 @@
 
 @media screen and (max-width: 430px){
     #bloco2{
-        height: 1200px;
+        height: auto;
     }
     .conteudoB2 .imagensB2{
         row-gap: 5px;
@@ -220,19 +226,19 @@
     .conteudoB2 .imagensB2 .img1B2,
     .conteudoB2 .imagensB2 .img2B2,
     .conteudoB2 .imagensB2 .img3B2{
-        width: 67%;
+        width: 85%;
         height: 170px;
     }
 }
 
-@media screen and (max-width: 330px){
+@media screen and (max-width: 370px){
     #bloco2{
-        height: 1300px;
+        height: auto;
     }
     .conteudoB2 .imagensB2 .img1B2,
     .conteudoB2 .imagensB2 .img2B2,
     .conteudoB2 .imagensB2 .img3B2{
-        width: 75%;
+        width: 95%;
         height: 170px;
     }
 }
@@ -243,50 +249,314 @@
 
 @media screen and (max-width: 1250px){
     #bloco3{
-        width: 97vw;
         height: 650px;
-    }
-    .informacoes .linha1{
-        height: 300px;
-    }
-    .informacoes .linha2{
-        height: 210px;
     }
 }
 
 @media screen and (max-width: 1010px){
     #bloco3{
-        width: 97vw;
         height: 1050px;
     }
     .informacoes div{
         width: 45%;
-        height: 250px;
-    }
-    .informacoes .linha1{
-        height: 300px;
-    }
-    .informacoes .linha2{
-        height: 210px;
     }
 }
 
 @media screen and (max-width: 675px){
     #bloco3{
-        width: 97vw;
-        height: 1850px;
+        height: auto;
     }
     #bloco3 h1{
         font-size: 1.5em;
     }
     .informacoes div{
         width: 70%;
-        height: 250px;
     }
-    .informacoes .linha1{
+
+}
+
+@media screen and (max-width: 500px){
+    .informacoes div{
+        width: 90%;
+    }
+}
+
+/* Fim bloco3 */
+
+/* Media query bloco4 */
+
+@media screen and (max-width: 1250px){
+    #bloco4{
+        width: 97vw;
+    }
+    #bloco4 iframe{
+        width: 60%;
+        height: 380px;
+    }
+    
+    #bloco4 p{
+        color: #0d1e4be0;
+        width: 30%;
+        height: 380px;
+        font-size: 2.3em;
+    }
+}
+
+@media screen and (max-width: 960px){
+    #bloco4 iframe{
+        width: 64%;
+        height: 370px;
+    }
+    
+    #bloco4 p{
+        color: #0d1e4be0;
+        width: 34%;
+        height: 370px;
+        font-size: 2.1em;
+    }
+}
+
+@media screen and (max-width: 800px){
+    #bloco4{
+        flex-wrap: wrap;
+        height: 500px;
+    }
+    #bloco4 iframe{
+        width: 85%;
+        height: 320px;
+    }   
+    #bloco4 p{
+        text-align: center;
+        width: 85%;
+        height: auto;
+        font-size: 1.8em;
+    }
+}
+
+@media screen and (max-width: 600px){
+    #bloco4{
+        height: 450px;
+    }
+    #bloco4 iframe{
+        height: 250px;
+        width: 85%;
+    }   
+    #bloco4 p{
+        width: 95%;
+        margin-top: 0px;
+        text-align: center;
+        height: auto;
+        font-size: 1.4em;
+    }
+}
+
+@media screen and (max-width: 400px){
+    #bloco4{
         height: 300px;
     }
-    .informacoes .linha2{
-        height: 210px;
+    #bloco4 iframe{
+        height: 170px;
+        width: 85%;
+    }   
+    #bloco4 p{
+        width: 100%;
+        margin-top: 0px;
+        text-align: center;
+        height: auto;
+        font-size: 1em;
     }
+}
+
+/* Fim bloco4 */
+
+/* Media query bloco5 */
+
+@media screen and (max-width: 1250px){
+    #bloco5{
+    }
+    #faq{
+        width: 80%;
+    }
+    .faq-item button{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 350px){
+    #bloco5{
+        width: 97vw;
+    }
+    #faq{
+        width: 80%;
+    }
+    .faq-item button span{
+        font-size: 0.8em;
+    }
+    .faq-item .faq-resp {
+        font-size: 0.7em;
+      }
+}
+
+/* Fim bloco5 */
+
+/* Media query bloco6 */
+
+@media screen and (max-width: 1250px){
+    #bloco6{
+    }
+    #bloco6 div{
+        margin: 0px auto;
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 800px){
+    #bloco6 div{
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    #bloco6 h1{
+        font-size: 1.6em;
+    }
+    #bloco6 div{
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    #bloco6 div{
+        height: 180px;
+    }
+}
+
+@media screen and (max-width: 300px){
+    #bloco6 div{
+        height: 150px;
+    }
+}
+
+/* Fim bloco6 */
+
+@media screen and (max-width: 1250px){
+    footer{
+    }
+}
+
+@media screen and (max-width: 1050px){
+    footer div.flex{
+    justify-content: center;
+    column-gap: 20px;
+    row-gap: 30px;
+}
+    footer .flex .imgRodape{
+        width: 28%;
+        height: auto;
+    }
+    footer .navRodape{
+        width: 25%;
+        height: auto;
+    }
+    footer .horarios{
+        width: 35%;
+        height: auto;
+    }
+    footer .contatos{
+        width: 50%;
+        height: auto;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    footer{
+        margin-top: 50px;
+    }
+    footer .flex .imgRodape{
+        width: 40%;
+        height: auto;
+    }
+    footer .navRodape{
+        width: 55%;
+        height: auto;
+    }
+    footer .navRodape ul{
+        margin-top: 20% auto;
+    }
+    footer .horarios{
+        width: 45%;
+        height: auto;
+    }
+    footer .contatos{
+        width: 50%;
+        height: auto;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 650px){
+    footer{
+        margin-top: 100px;
+    }
+    footer .flex .imgRodape{
+        width: 35%;
+        height: auto;
+    }
+    footer .navRodape{
+        width: 50%;
+        height: auto;
+    }
+    footer .navRodape ul{
+        margin-top: 20% auto;
+        font-size: 0.9em;
+    }
+    footer .horarios{
+        width: 40%;
+        height: auto;
+        font-size: 0.9em;
+    }
+    footer .horarios ul li{
+        letter-spacing: 2px;
+        text-align: center;
+    }
+    footer .contatos{
+        width: 52%;
+        font-size: 0.9em;
+    }
+}
+
+@media screen and (max-width: 500px){
+    footer .flex .imgRodape{
+        width: 55%;
+        height: auto;
+    }
+    footer .navRodape{
+        width: 80%;
+        height: 220px;
+    }
+    footer .navRodape ul{
+        margin-top: 20% auto;
+        font-size: 1em;
+    }
+    footer .horarios{
+        width: 80%;
+        height: 250px;
+        font-size: 1em;
+    }
+    footer .horarios ul{
+        margin: 0 auto;
+    }
+    footer .contatos{
+        width: 80%;
+        font-size: 1em;
+    }
+}
+@media screen and (max-width: 350px){
+    footer .contatos{
+        width: 80%;
+        font-size: 0.8em;
+    } 
 }
