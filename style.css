@@ -472,12 +472,12 @@ footer .horarios ul li{
 
 footer .contatos{
     width: 27%;
-    padding-top: 40px;
+    padding-top: 10px;
+    padding-bottom: 40px;
     height: 200px;
 }
 
 footer .contatos .icones{
-    margin-bottom: 30px;
     list-style: none;
     text-align: center;
     color: white;
