@@ -13,53 +13,59 @@
 </head>
 <body>
 
-            <header>
 
-            <nav class="nav-bar">
 
-                <div class="nav-list">
-                    <ul class="navegacao">
-                        <li class="home nav-item">
-                            <a href="index.html" class="nav-link">Home</a>
-                        </li>
-                        <li class="serviços nav-item">
-                            <a href="" class="nav-link">Serviços</a>
-                        </li>
-                        <li class="acomodacoes nav-item">
-                            <a href="" class="nav-link">Acomodações</a>
-                        </li>
-                        <li class="contato nav-item">
-                            <a href="" class="nav-link">Contato</a>
-                        </li>
-                        <li class="ataul nav-item">
-                            <a href="galeria.html" class="nav-link">Galeria</a>
-                        </li>
-                        <li class="rotas nav-item">
-                            <a href="" class="nav-link">Rotas</a>
-                        </li>
-                    </ul>
-                </div>
+    <div id="container">
 
-                <div class="mobile-menu-icon">
-                    <button onclick="menuShow()"><i class="fa-solid fa-bars fa-2xl"></i></button>
-                </div>
+        <header>
 
-            </nav>
+        <nav class="nav-bar">
 
-            <div class="mobile-menu">
-                <ul>
-                    <li class="home nav-item"><a href="index.html" class="nav-link">Home</a></li>
-                    <li class="serviços nav-item"><a href="" class="nav-link">Serviços</a></li>
-                    <li class="acomodacoes nav-item"><a href="" class="nav-link">Acomodações</a></li>
-                    <li class="contato nav-item"><a href="" class="nav-link">Contato</a></li>
-                    <li class="galeria nav-item"><a href="" class="nav-link">Galeria</a></li>
-                    <li class="rotas nav-item"><a href="" class="nav-link">Rotas</a></li>
+            <div class="logo">
+                <img src="img/logo01.png" alt="">
+            </div>
+
+            <div class="nav-list">
+                <ul class="navegacao">
+                    <li class="home nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="serviços nav-item">
+                        <a href="" class="nav-link">Serviços</a>
+                    </li>
+                    <li class="acomodacoes nav-item">
+                        <a href="" class="nav-link">Acomodações</a>
+                    </li>
+                    <li class="contato nav-item">
+                        <a href="#footer" class="nav-link">Contato</a>
+                    </li>
+                    <li class="ataul nav-item">
+                        <a href="galeria.html" class="nav-link">Galeria</a>
+                    </li>
+                    <li class="rotas nav-item">
+                        <a href="index.html" class="nav-link">Rotas</a>
+                    </li>
                 </ul>
             </div>
 
-        </header>
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><i class="fa-solid fa-bars fa-2xl"></i></button>
+            </div>
 
-    <div id="container">
+        </nav>
+
+        <div class="mobile-menu">
+            <ul>
+                <li class="home nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="serviços nav-item"><a href="" class="nav-link">Serviços</a></li>
+                <li class="acomodacoes nav-item"><a href="" class="nav-link">Acomodações</a></li>
+                <li class="contato nav-item"><a href="#footer" class="nav-link">Contato</a></li>
+                <li class="galeria nav-item"><a href="" class="nav-link">Galeria</a></li>
+                <li class="rotas nav-item"><a href="#bloco6" class="nav-link">Rotas</a></li>
+            </ul>
+        </div>
+
+    </header>
 
         <section class="galeria">
             <div class="item00">
@@ -175,6 +181,61 @@
             </div>
         </section>
     </div>
+
+    <footer id="footer">
+
+        <div class="flex">
+            <div class="imgRodape">
+                <img src="img/logo01.png">
+            </div>
+            
+            <div  class="navRodape">
+                <ul>
+                    <li><h3>Inicio</h3></li>
+                    <li>Home</li>
+                    <li>Serviços</li>
+                    <li>Acomodações</li>
+                    <li>Galeria</li>
+                    <li>Rotas</li>
+                </ul>
+            </div>
+
+            <div  class="horarios">
+                <ul>
+                    <li><h3>Funcionamento</h3></li>
+                    <li>seg.: 08:00 - 17:00</li>
+                    <li>ter.: 08:00 - 17:00</li>
+                    <li>qua.: 08:00 - 17:00</li>
+                    <li>qui.: 08:00 - 17:00</li>
+                    <li>sex.: 08:00 - 17:00</li>
+                    <li>sáb.: Fechado</li>
+                    <li>dom.: Fechado</li>
+                </ul>
+            </div>
+
+            <div class="contatos">
+                <ul class="icones">
+                    <li><i class="fa-brands fa-whatsapp fa-2xl"></i></li>
+                    <li><i class="fa-brands fa-square-facebook fa-2xl"></i></li>
+                    <li><i class="fa-brands fa-instagram fa-2xl"></i></li>
+                </ul>
+
+                <h3>E-mail</h3>
+                <span>larnossasenhoradagloria@yahoo.com.br</span><br>
+
+                <h3>Telefone</h3>
+                <span>(21) 96546-0753</span>
+                <span>(21) 96546-0207</span>
+
+                <h3>Whatsapp</h3>
+                <span>(21) 96546-0753</span>
+
+            </div>
+        </div>
+
+        <div class="copyright">2023 Copyright - Lar Nossa Senhora da Glória</div>
+
+    </footer>
     
     <script src="js/script.js"></script>   
     <script src="js/galeria.js"></script>

@@ -2,6 +2,10 @@ body{
     font-family: sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 /* Cabeçalho */
 
 header{
@@ -331,7 +335,7 @@ div.icons .insta-link{
 
 #bloco4 iframe{
     box-shadow: 3px 3px 6px black;
-    width: 60%;
+    width: 56%;
     height: 400px;
 }
 
