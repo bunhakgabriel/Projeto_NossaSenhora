@@ -12,6 +12,19 @@
     display: none;
 }
 
+/* Media query icones wpp, face, insta */
+@media screen and (max-width: 550px){
+    div.icons .wpp-link, div.icons .face-link, div.icons .insta-link{
+        width: 30px;
+        height: 25px;
+        color: white;
+        border-radius: 50px;
+        text-align: center;
+        font-size: 20px;
+        z-index: 1000;
+    }
+}
+
 /* Media para menu responsivo */
 
 @media screen and (max-width: 840px) {
@@ -24,6 +37,7 @@
     .mobile-menu{
         background-color: #0d1e4bf6;
         height: 270px;
+        border: 1px solid #0d1e4bf6;
     }
     .mobile-menu-icon {
         display: block;
@@ -37,6 +51,10 @@
         font-size: 1em;
     }
     .mobile-menu ul {
+        margin: 0px;
+        padding: 10px 0px;
+        height: 20px;
+        list-style: none;
         display: flex;
         flex-direction: column;
         text-align: center;
@@ -45,6 +63,9 @@
     .mobile-menu .nav-item {
         display: block;
         padding-top: 1.2rem;
+    }
+    .mobile-menu .nav-item a:hover{
+        color: darkgray;;
     }
     .open {
         display: block;
@@ -123,6 +144,9 @@
         height: 7px;
         border: 1px solid white;
         margin: 4px;
+    }
+    .navigation{
+        bottom: 20px;
     }
 }
 

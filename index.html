@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="mediaQuery.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mediaQuery.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
@@ -15,10 +15,25 @@
 <body>
     <div id="container">
 
+        <div class="icons">
+            <ul>
+                <a href="https://www.facebook.com/profile.php?id=100075992298366" target="_blank">
+                    <li class="face-link"><i class="fa-brands fa-square-facebook fa-xl"></i></li>
+                </a>
+                <a  href="https://www.instagram.com/lar.nossasenhoradagloria/" target="_blank">
+                    <li class="insta-link"><i class="fa-brands fa-instagram fa-xl"></i></li>
+                </a>
+                <a href="https://contate.me/lar-nossa-senhora-da-gloria" target="_blank">
+                    <li class="wpp-link"><i class="fa-brands fa-whatsapp fa-xl"></i></li>
+                </a>
+            </ul>
+        </div>
+
         <header>
 
                 <nav class="nav-bar">
                     
+                    <!--
                     <div class="logo"> 
                         <ul class="icones">
                             <li><i style="color: #40FF00;" class="fa-brands fa-whatsapp fa-xl"></i></li>
@@ -26,11 +41,12 @@
                             <li><i style="color: #FA58F4;" class="fa-brands fa-instagram fa-xl"></i></li>
                         </ul>
                     </div>   
+                    -->
         
                     <div class="nav-list">
                         <ul class="navegacao">
                             <li class="ataul nav-item">
-                                <a href="" class="nav-link">Home</a>
+                                <a href="index.html" class="nav-link">Home</a>
                             </li>
                             <li class="serviços nav-item">
                                 <a href="" class="nav-link">Serviços</a>
@@ -42,7 +58,7 @@
                                 <a href="" class="nav-link">Contato</a>
                             </li>
                             <li class="galeria nav-item">
-                                <a href="" class="nav-link">Galeria</a>
+                                <a href="galeria.html" class="nav-link">Galeria</a>
                             </li>
                             <li class="rotas nav-item">
                                 <a href="" class="nav-link">Rotas</a>
@@ -62,7 +78,7 @@
                         <li class="serviços nav-item"><a href="" class="nav-link">Serviços</a></li>
                         <li class="acomodacoes nav-item"><a href="" class="nav-link">Acomodações</a></li>
                         <li class="contato nav-item"><a href="" class="nav-link">Contato</a></li>
-                        <li class="galeria nav-item"><a href="" class="nav-link">Galeria</a></li>
+                        <li class="galeria nav-item"><a href="galeria.html" class="nav-link">Galeria</a></li>
                         <li class="rotas nav-item"><a href="" class="nav-link">Rotas</a></li>
                     </ul>
                 </div>
@@ -84,34 +100,34 @@
 
         <section id="bloco1">
 
-            <div class="slides">
+                <div class="slides">
 
-                <input class="input" type="radio" name="slide" id="slide1" checked>
-                <input class="input" type="radio" name="slide" id="slide2">
-                <input class="input" type="radio" name="slide" id="slide3">
-                <input class="input" type="radio" name="slide" id="slide4">
+                    <input class="input" type="radio" name="slide" id="slide1" checked>
+                    <input class="input" type="radio" name="slide" id="slide2">
+                    <input class="input" type="radio" name="slide" id="slide3">
+                    <input class="input" type="radio" name="slide" id="slide4">
 
-                <div class="slide img1">
-                    <img src="img/carrosel.jpeg">
-                </div>
-                <div class="slide">
-                    <img src="img/carrosel (1).jpeg">
-                </div>
-                <div class="slide">
-                    <img src="img/carrosel (2).jpeg">
-                </div>
-                <div class="slide">
-                    <img src="img/imagem40.png">
+                    <div class="slide img1">
+                        <img src="img/carrosel.jpeg">
+                    </div>
+                    <div class="slide">
+                        <img src="img/carrosel (1).jpeg">
+                    </div>
+                    <div class="slide">
+                        <img src="img/carrosel (2).jpeg">
+                    </div>
+                    <div class="slide">
+                        <img src="img/imagem40.png">
+                    </div>
+
                 </div>
 
-            </div>
-
-            <div class="navigation">
-                <label class="bar" for="slide1"></label>
-                <label class="bar" for="slide2"></label>
-                <label class="bar" for="slide3"></label>
-                <label class="bar" for="slide4"></label>
-            </div>
+                <div class="navigation">
+                    <label class="bar" for="slide1"></label>
+                    <label class="bar" for="slide2"></label>
+                    <label class="bar" for="slide3"></label>
+                    <label class="bar" for="slide4"></label>
+                </div>
 
         </section>
 
@@ -418,6 +434,6 @@
         </footer>
 
     </div>
-    <script src="script.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>

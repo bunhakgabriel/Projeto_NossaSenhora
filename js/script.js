@@ -60,3 +60,4 @@ document.addEventListener('click', e => {
 })
 
 //Fim função faq
+

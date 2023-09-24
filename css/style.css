@@ -13,23 +13,26 @@ header .nav-bar{
     list-style: none;
     font-family: 'Montserrat', sans-serif;
     height: 25%;
-    display: flex;
-    justify-content: space-around;
+}
+
+div.nav-list{
+    margin: 0 auto;
 }
 
 nav.nav-bar{
     background-color: #0d1e4bf6;
     display: flex;
-    justify-content: space-between;
     padding: 10px;
 }
 
+/*
 ul{
     margin: 0px;
     padding: 10px 0px;
     height: 20px;
     list-style: none;
 }
+*/
 
 header .nav-bar .ataul{
     border: 0.5px solid white
@@ -38,8 +41,8 @@ header .nav-bar .ataul{
 header .nav-bar li{
     display: inline;
     margin-right: 15px;
-    font-size: 1.2em;
-    padding: 5px;
+    font-size: 1em;
+    padding: 10px;
 }
 
 header .icones{
@@ -51,12 +54,12 @@ header .icones li{
     margin-right: 10px;
 }
 
-a{
+.navegacao a, .mobile-menu a{
     color: white;
     text-decoration: none;
 }
 
-a:hover{
+.navegacao a:hover{
     color: darkgray;
 }
 
@@ -97,24 +100,65 @@ div.titulo{
 
 .logoTitulo .logo{
     width: 18%;
+    padding: 5px;
 }
 
 .logoTitulo .logo img{
-    width: 100%;
+    width: 95%;
     height: 100%;
 }
 
 /* Fim cabeçalho */
 
+div.icons{
+
+}
+
+div.icons ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    width: 75px;
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+}
+
+div.icons ul li{
+    padding: 15px;
+    margin-top: 15px;
+}
+
+div.icons .wpp-link, div.icons .face-link, div.icons .insta-link{
+    width: 40px;
+    height: 35px;
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    z-index: 1000;
+}
+div.icons .wpp-link{
+    background-color: #25d366;
+}
+
+div.icons .face-link{
+    background-color: #08088A;
+}
+
+div.icons .insta-link{
+    background-color: #DF01A5;
+}
+
 /* Inicio Carrosel de imagens */
 
 #bloco1{
-    position: relative;
     height: 400px;
     width: 800px;
     padding: 0px;
     overflow: hidden;
-    margin: 35px auto 50px auto;
+    margin: 15px auto 50px auto;
+    z-index: 10;
 }
 
 .slides{
@@ -134,11 +178,10 @@ div.titulo{
 }
 
 .navigation{
-    position: absolute;
-    bottom: 15px;
-    left: 50%;
-    transform: translatex(-50%);
+    bottom: 35px;
     display: flex;
+    justify-content: center;
+    position: relative;
 }
 
 .bar{
@@ -326,7 +369,6 @@ div.titulo{
 .faq-item button{
     width: 700px;
     padding: 14px;
-    position: relative;
     background-color: #0d1e4be0;
     color: white;
     border: 0px;
@@ -342,14 +384,15 @@ div.titulo{
 .faq-item button span{
     border: 0px solid red;
     display: block;
-    width: 85%;
+    width: 87%;
 }
 
 .faq-item button i{
-    position: absolute;
-    right: 15px;
     border: 0px solid red;
     display: block;
+    padding: 2px;
+    width: 8%;
+    text-align: end;
 }
 
 .faq-item .faq-resp {
