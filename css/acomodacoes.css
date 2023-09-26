@@ -1,0 +1,98 @@
+section.acomodacoes-b1{
+    margin: 50px auto;
+    border: 0px solid red;
+    display: flex;
+    width: 1200px;
+    justify-content: space-between;
+}
+
+section.acomodacoes-b1 .conteudo{
+    border: 0px solid black;
+    width: 40%;
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 65px;
+    color: #0d1e4be0;
+}
+
+section.acomodacoes-b1 .imagem{
+    border: 0px solid black;
+    width: 55%;
+    height: 450px;
+
+}
+
+section.acomodacoes-b1 .imagem img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.titulo .logo{
+    width: 75px;
+    height: 75px;
+}
+
+.titulo .logo img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.titulo{
+    width: 99%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 15px;
+    align-items: center;
+}
+
+.titulo div{
+    border: 1px solid #0d1e4be0;
+    width: 40%;
+    height: 0.01em;
+}
+
+.titulo h1{
+    color: #0d1e4be0;
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+}
+
+section.acomodacoes-b2{
+    margin-top: 20px;
+    border: 0px solid black;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+section.acomodacoes-b2 h2{
+    text-align: center;
+    color: #0d1e4be0;
+}
+
+section.acomodacoes-b2 div.acm{
+    border: 0px solid red;
+}
+
+div.acm1, div.acm2, div.acm3, 
+div.acm4, div.acm5, div.acm6{
+    width: 45%;
+    height: 500px;
+}
+
+div.acm img{
+    width: 100%;
+    height: 330px;
+    border-radius: 15px;
+}
+
+section.acomodacoes-b2 p{
+    text-align: center;
+    font-size: 17px;
+    color: #585858;
+}
