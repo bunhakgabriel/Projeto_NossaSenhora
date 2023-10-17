@@ -230,7 +230,7 @@ div.icons .insta-link{
     margin: 50px auto 0px auto;
     background-color: #0d1e4be0;
     width: 1270px;
-    height: 550px;
+    height: 570px;
     color: white;
 }
 
@@ -242,40 +242,46 @@ div.icons .insta-link{
 
 .conteudoB2{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .conteudoB2 .paragrafoB2{
     width: 40%;
     font-family: sans-serif;
     font-size: 1.2em;
+    padding-left: 30px;
 }
 
 .conteudoB2 .imagensB2{
     width: 50%;
-    height: 475px;
+    height: 500px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    column-gap: 20px;
+    column-gap: 10px;
 }
 
 .conteudoB2 .imagensB2 .img1B2{
-    width: 83%;
-    height: 220px;
+    width: 75%;
+    height: 265px;
     margin: 0 auto;
     box-shadow: 3px 3px 6px black;
 }
 
 .conteudoB2 .imagensB2 .img2B2{
-    width: 50%;
+    width: 46%;
     height: 215px;
     box-shadow: 3px 3px 6px black;
 }
 
 .conteudoB2 .imagensB2 .img3B2{
-    width: 30%;
+    width: 28%;
     height: 215px;
+    box-shadow: 3px 3px 6px black;
+}
+
+.conteudoB2 .imagensB2 .img4B2{
+    display: none;
     box-shadow: 3px 3px 6px black;
 }
 
@@ -325,25 +331,28 @@ div.icons .insta-link{
 
 #bloco4{
     width: 1270px;
-    margin: 15px auto;
-    height: 550px;
+    margin: 35px auto;
+    margin-bottom: 100px;
+    height: 450px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     column-gap: 20px;
     align-items: center;
 }
 
 #bloco4 iframe{
+    margin-top: 30px;
     box-shadow: 3px 3px 6px black;
-    width: 56%;
-    height: 400px;
+    width: 45%;
+    height: 320px;
 }
 
-#bloco4 p{
+#bloco4 h1{
     color: #0d1e4be0;
-    width: 30%;
-    height: 400px;
-    font-size: 2.6em;
+    width: 100%;
+    font-size: 2em;
+    text-align: center;
 }
 
 /* Fim bloco 4 */
@@ -502,6 +511,15 @@ footer .navRodape ul li{
     font-size: 1em;
 }
 
+footer .navRodape li a{
+    text-decoration: none;
+    color: white;
+}
+
+footer .navRodape li a:hover{
+    color: darkgray;
+}
+
 footer .horarios{
     width: 27%;
 }
@@ -527,6 +545,10 @@ footer .contatos{
 footer .contatos .icones{
     list-style: none;
     text-align: center;
+    color: white;
+}
+
+footer .contatos .icones a{
     color: white;
 }
 

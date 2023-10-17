@@ -151,6 +151,7 @@ nav.nav-bar .logo{
     div.item34{
         grid-column: 1 / 6;
         grid-row: 27 / 29;
+        display: block;
     }
     div.item36{
         grid-column: 5 / 12;
@@ -308,6 +309,7 @@ nav.nav-bar .logo{
     div.item34{
         grid-column: 1 / 6;
         grid-row: 108 / 114;
+        display: block;
     }
     div.item36{
         grid-column: 1 / 12;
